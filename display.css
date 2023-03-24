@@ -1,0 +1,25 @@
+.divisao
+{
+   align-items: center;
+}
+
+.divisao__aninhada-um
+{
+   
+   border: 1px solid blue;
+   flex: 1;
+}
+
+.divisao__aninhada-dois
+{
+   
+   border: 1px solid blue;
+   flex: 1;
+}
+
+.divisao__aninhada-tres
+{
+   
+   border: 1px solid blue;
+   flex: 1;
+}

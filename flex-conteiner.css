@@ -1,0 +1,45 @@
+.flex-container {
+    width: 1900px;
+    height: 985.50px;
+    display: flex;
+    flex-flow: row wrap; /*Controla a quebra de linha*/
+    justify-content: space-around; /*Controla o espaçamento na linha*/
+    align-items: baseline; /*Similar ao justify-content, controla o espaçamentos dos itens no cross axis*/
+    align-content: space-evenly; /*Controla o espaçamentos entre linhas no cross axis*/
+  }
+
+  div
+  {
+    border: 10px solid blue;
+  }
+
+  .flex-item-fiveteen
+  {
+    order: 1;
+    flex-basis: auto;
+  }
+  .flex-item-one
+  {
+    order: 4;
+  }
+
+  .flex-item-fourteen
+  {
+    order: 2;
+  }
+
+  .flex-item-threeteen
+  {
+    order: 3;
+  }
+
+  .flex-item-seven
+  {
+    flex-grow: 1;
+    align-self: flex-end; /*Mesmo efeito do align-itens para elementos individuais*/
+  }
+
+  .flex-item-ten
+  {
+    flex-shrink: 1;
+  }
