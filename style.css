@@ -47,7 +47,18 @@ body{
     text-decoration: none;
     font-style: normal;
     padding: 21.5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    transition: 1s;
+    cursor: no-drop;
+}
 
+.apresentacao__conteudo__links__link:hover
+{
+    background-color: #272727;
+    transition: 1s;
 }
 
 .apresentacao__conteudo__links__subtitulo
@@ -89,5 +100,15 @@ body{
     row-gap: 32px;
     width: 381px;
     height: 262px;
+    
+}
+
+h4
+{
+    background-color: #22D4FD;
+    font-size: 24px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+    text-align: center;
     
 }
