@@ -14,13 +14,29 @@ body{
     color: #F6F6F6;
 }
 
-.titulo-destaque{
+.cabecalho
+{
+    padding: 5% 0% 0% 15%;   
+}
+
+.cabecalho__menu
+{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     color: #22D4FD;
+    text-decoration: none;
 }
 
 .apresentacao
 {
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +48,7 @@ body{
     width: 615px;
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo
@@ -47,6 +63,10 @@ body{
     font-size: 37px;
     transition: 1s;
     cursor: pointer;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
 }
 
 .apresentacao__conteudo__texto
