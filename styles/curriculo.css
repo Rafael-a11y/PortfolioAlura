@@ -9,22 +9,6 @@
     padding: 0;
 }
 
-body
-{
-    padding-left: 20px;
-    
-}
-
-main
-{
-    display: flex;
-}
-
-div
-{
-    background-color: var(--bg-color);
-}
-
 .cabecalho
 {
     padding: 5% 0% 0% 15%;   
@@ -44,15 +28,59 @@ div
     color: var(--bg-color);
     text-decoration: none;
 }
-.conteiner
+
+main
 {
-    width: 300px;
-    background-color: blue;
+    display: flex;
+}
+
+.barra-lateral
+{
+    padding: 30% 0% 0% 9%;
+    background-color: var(--bg-color);
+}
+
+section
+{
+    padding: 30px 0 0 80px;
+}
+
+h1
+{
+    font-size:64px;
+}
+
+h2
+{
+    text-decoration: underline;
+}
+
+.contato
+{
+    list-style-type: none;
+}
+
+
+
+.lista-desordenada
+{
+    margin-left: 25px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000000;
 }
 
 .educacao
 {
-    padding-left: 10px;
+    margin-left: 12px;
+}
+
+p
+{
+    margin-left: 10px;
 }
 
 .rodape
