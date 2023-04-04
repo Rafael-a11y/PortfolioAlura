@@ -11,11 +11,16 @@
 
 .cabecalho
 {
-    padding: 5% 0% 0% 15%;   
+    
+    display: flex;
+    justify-content: start;
+    height: 96.44px;
+    box-sizing: border-box;
 }
 
 .cabecalho__menu
 {
+    padding: 5% 0 0 7%;
     display: flex;
     gap: 80px;
 }
