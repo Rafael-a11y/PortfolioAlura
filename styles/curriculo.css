@@ -28,7 +28,7 @@
 .cabecalho__menu__link
 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--bg-color);
     text-decoration: none;
@@ -52,7 +52,7 @@ section
 
 h1
 {
-    font-size:64px;
+    font-size:4rem;
 }
 
 h2
@@ -95,6 +95,6 @@ p
     background-color: var(--bg-color);
     text-align: center;
     font-family: 'Montserrat', 'sans-serif';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
