@@ -173,25 +173,45 @@ body{
 
     .cabecalho__menu
     {
-        justify-content: center;
-        
+        justify-content: center;   
     }
 
     .apresentacao
     {
         flex-direction: column-reverse;
         row-gap: 80px;
-        padding: 5%;
     }
 
     .apresentacao__conteudo
     {
         width: auto;
     }
+}
 
-    .rodape
+@media (max-width: 800px)
+{
+    .cabecalho
     {
-        width: 100%;
+        padding-right: 20%;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .cabecalho
+    {
+        padding: 5% 10% 5% 0;
+       
     }
 
+    .cabecalho__menu
+    {
+        
+        gap: 30px;
+    }
+
+    .cabecalho__menu__link
+    {
+        font-size: 1rem;
+    }
 }
