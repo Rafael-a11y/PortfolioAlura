@@ -5,3 +5,8 @@
 <h4 align="center">
     :construction: Projeto em Construção :construction:
 </h4>
+# :hammer: Funcionalidades do projeto
+
+- `Funcionalidade 1`: servir de portfólio
+- `Funcionalidade 2`: divulgar outras redes socias
+- `Funcionalidade 3`: divulgar meus dados de contato na aba Currículo
