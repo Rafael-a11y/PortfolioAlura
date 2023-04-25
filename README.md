@@ -11,5 +11,5 @@
 - `Funcionalidade 2`: divulgar outras redes socias
 - `Funcionalidade 3`: divulgar meus dados de contato na aba Currículo
 
-[Demosntração do pórtfólio](https://user-images.githubusercontent.com/63820646/234162382-d40316a0-dd02-4783-a6b5-ec90c14ba9d6.mp4)
+![Demosntração do pórtfólio](https://user-images.githubusercontent.com/63820646/234162382-d40316a0-dd02-4783-a6b5-ec90c14ba9d6.mp4)
 
