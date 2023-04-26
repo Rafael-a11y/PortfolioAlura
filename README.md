@@ -16,4 +16,10 @@
 **Disponibilizarei um link de acesso para o projeto quando hospeda-lo na internet.**
 # 🚀 Executando o projeto
 **Quando o projeto estiver finalizado, explicarei como executa-lo corretamente**
+# Autores
 
+<img src="https://user-images.githubusercontent.com/63820646/234442858-0e1fbc97-b7b0-4e89-9e01-2bab7371cd35.png" width="200px"><br><sub>Rafael Souto da Silva</sub>
+|:---:|
+# 🧑‍💻 Tecnologias usadas
+- `HTML5` 
+- `CSS3`
