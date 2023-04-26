@@ -12,5 +12,8 @@
 - `Funcionalidade 3`: divulgar meus dados de contato na aba Currículo
 
 [Demosntração do pórtfólio](https://user-images.githubusercontent.com/63820646/234162382-d40316a0-dd02-4783-a6b5-ec90c14ba9d6.mp4)
-# :blush:
+# 📁 Acesso ao projeto
+**Disponibilizarei um link de acesso para o projeto quando hospeda-lo na internet.**
+# 🚀 Executando o projeto
+**Quando o projeto estiver finalizado, explicarei como executa-lo corretamente**
 
