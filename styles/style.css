@@ -24,7 +24,7 @@
 body{
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: red;
+    background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
 
@@ -215,8 +215,4 @@ body{
         font-size: 1rem;
     }
 
-    .apresentacao
-    {
-        padding: 0;
-    }
 }
