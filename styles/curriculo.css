@@ -25,7 +25,6 @@ html
     
     display: flex;
     justify-content: start;
-    height: 96.44px;
     box-sizing: border-box;
 }
 
@@ -108,4 +107,12 @@ p
     font-family: 'Montserrat', 'sans-serif';
     font-size: 2.4rem;
     font-weight: 400;
+}
+
+@media (max-width: 480px)
+{
+    .rodape
+    {
+        width: 100%;
+    }
 }
