@@ -32,6 +32,7 @@ html
     display: flex;
     justify-content: start;
     box-sizing: border-box;
+    height: 5.87rem;
    
 }
 
@@ -39,7 +40,7 @@ html
 {
     padding: 5% 0 0 6%;
     display: flex;
-    gap: 80px;
+    gap: 20px;
 }
 
 .cabecalho__menu__link
@@ -119,10 +120,21 @@ p
     font-weight: 400;
 }
 
-@media (max-width: 480px)
+@media (max-width: 480px) 
 {
+
+    .cabecalho__menu
+    {
+        padding: 5% 0 0 7%;
+        gap: 30px;
+    }
+
+    .cabecalho__menu__link
+    {
+        font-size: 1rem;
+    }
     .rodape
     {
-        width: 100%;
+        width: 100vw;
     }
 }
