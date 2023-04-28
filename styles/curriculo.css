@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
 :root
 {
     --bg-color: #e8ecc7;
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+    --peso-semibold: 600;
+    --peso-regular: 400;
 }
 
 *
@@ -26,20 +32,21 @@ html
     display: flex;
     justify-content: start;
     box-sizing: border-box;
+   
 }
 
 .cabecalho__menu
 {
-    padding: 5% 0 0 7%;
+    padding: 5% 0 0 6%;
     display: flex;
     gap: 80px;
 }
 
 .cabecalho__menu__link
 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.4rem;
-    font-weight: 600;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: var(--peso-semibold);
     color: var(--bg-color);
     text-decoration: none;
 }
@@ -62,7 +69,8 @@ section
 
 h1
 {
-    font-size:6.4rem;
+    font-size:2.25rem;
+    font-family: var(--fonte-primaria);
 }
 
 h2
@@ -75,7 +83,9 @@ h2
     list-style-type: none;
 }
 
-
+p{
+    font-size: 1rem;
+}
 
 .lista-desordenada
 {
@@ -90,7 +100,7 @@ a
 
 .educacao
 {
-    margin-left: 12px;
+    margin-left: 1rem;
 }
 
 p
@@ -105,7 +115,7 @@ p
     background-color: var(--bg-color);
     text-align: center;
     font-family: 'Montserrat', 'sans-serif';
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
